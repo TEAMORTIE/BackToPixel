@@ -1,0 +1,119 @@
+:root {
+    --text: rgb(165, 202, 207);
+    --background: #f9fefc;
+    --primary: #d82622;
+    --secondary: #8198e9;
+    --accent: #6f59e2;
+    --titre: "Press Start 2P", system-ui;
+    --font2: "Roboto Slab", serif;
+  }
+ 
+
+body{
+    background: url(https://jeux.ca/wp-content/uploads/2021/06/Zelda-Top10-35ans.jpg);
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    font-family: var(--font2);
+    color: var(--secondary);
+}
+
+main{
+    background-color: black;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+h2{
+    text-align: center;
+    padding-top: 30%;
+    font-family: var(--titre);
+    font-size: 60px;
+    color: var(--primary);
+}
+
+h3{
+    padding-top: 100px;
+    margin-bottom: -100px;
+    text-align: center;
+    font-family: var(--titre);
+    color: var(--primary);
+}
+
+ 
+
+ .parallax-image
+ {
+     background-image: url(https://www.tomsguide.fr/content/uploads/sites/2/2017/02/nintendo-consoles-cover.png);
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-height: 700px;
+ }
+
+
+.prez{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    border-bottom: solid;
+    border-color: white;
+    margin: 0 100px 0 100px;
+    
+}
+
+
+ .imgcons{
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+    border: solid 3px;
+    border-color: var(--accent);
+ }
+
+.text{
+    text-align: center;
+}
+
+ .text p{
+    width: 500px;
+    margin-top: 70px;
+ }
+
+ .text button{
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+    background-color: none;
+    border-radius: 40%;
+    border-color: var(--primary);
+    color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+ }
+
+ .text button:hover{
+    border-color: var(--secondary);
+    color: var(--primary);
+    #hide{
+        opacity: 1;
+    }
+ }
+ 
+
+ .text button img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+ }
+
+ #hide{
+    position: absolute;
+    margin-left: 56px;
+    opacity: 0;
+ }
