@@ -1,0 +1,314 @@
+:root {
+  --text: rgb(165, 202, 207);
+  --background: #f9fefc;
+  --primary: #d82622;
+  --secondary: #8198e9;
+  --accent: #6f59e2;
+  --titre: "Press Start 2P", system-ui;
+  --font2: "Roboto Slab", serif; 
+  }
+  h2{
+    font-family: var(--titre);
+    color: var(--primary);
+  }
+  .main-title{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .presentation-intro{
+    padding-top:4rem;
+  }
+  .block-intro{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .div-photo-devanture{
+    width: 60%;
+    margin-right: 3rem;
+
+  }
+  .p-intro{
+    display: flex;
+    flex-wrap: wrap; 
+
+  }
+  .div-p-intro{
+    width:40%;
+    margin-left: 3rem;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: "Roboto";
+    color: var(--text)
+  }
+  body{
+    background-image: url(https://img.freepik.com/free-vector/gradient-zoom-effect-blue-background_23-2149762303.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+ /* header*/
+
+  header {
+    color: var(--secondary);
+    background: linear-gradient(var(--accent), rgb(0, 0, 0));
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    width: 100%;
+    height: 6%;
+    position: fixed;
+  }
+  
+  #nom {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+  }
+  
+  h1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--titre);
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+  }
+  
+  nav {
+    width: 80%;
+    justify-content: end;
+    margin-right: 15%;
+    display: flex;
+  }
+  
+  nav a {
+    color: var(--secondary);
+    font-family: var(--titre);
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+    border-right-style: solid;
+    padding: 1rem;
+    border-width: 1px;
+    transition: all 0.3s ease;
+  }
+  
+  nav .navigation:hover,
+  #consoles:hover > a {
+    background-color: #020906;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  #consoles {
+    position: relative;
+    padding-top: 10%;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    margin-top: 10%;
+    left: 0;
+    background-color: black;
+    list-style: none;
+  }
+  
+  #consoles:hover .submenu {
+    display: block;
+  }
+  
+  .submenu li a {
+    display: block;
+    padding:0rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);
+    text-decoration: none;
+  }
+  
+  .submenu li a:hover {
+    background-color: #6f59e2;
+  }  
+/* fin header*/
+  .all {
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    width: 70%;
+    margin-left: 15%;
+  }
+/* team */
+  .img-mbr{
+    width: 100px;
+    border-radius: 50%;
+  }
+  .team{
+    text-align: center;
+    margin-top: 6rem;
+  }
+  .team-profil{
+    display: flex;
+    justify-content:space-between;
+  }
+  .h-staff{
+    margin-bottom: 4rem;
+  }
+  .staff-name{
+    font-weight: 500;
+  }
+  /* fin team*/
+  /* valeurs */
+  .section-valeurs{
+    margin-top: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .image-arcade{
+    margin-right: 2rem;
+  }
+  .title-valeurs{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .block-valeurs{
+    display: flex;
+    justify-content: space-between;
+  }
+  .div-list-valeurs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 3rem;
+  }
+  .objectifs-title{
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  .objectifs-title::after{
+    padding-left: 0.5rem;
+    content: ":";
+  }
+  .li-valeur::before{
+    content: "-";
+    margin-right: 0.5rem;
+  }
+  /* fin valeurs*/
+  /*  interieur de la boutique*/
+  .section-photo{
+    margin-top: 6rem;
+  }
+  .title-photo{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .img-boutique-haut{
+    margin-right: 2rem;
+  }
+  .img-boutique-bas{
+    margin-left: 2rem;
+  }
+  .block-avis-haut{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  .block-avis-bas{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2rem;
+  }
+  .div-p-avis-haut{
+    width:40%;
+    margin-left: 3rem;
+  }
+  .div-p-avis-bas{
+    width: 40%;
+    margin-right: 3rem;
+  }
+  .div-photo-inside-haut{
+    width: 100%;
+    margin-right: 3rem;
+  }
+  .div-photo-inside-bas{
+    width: 100%;
+    margin-left: 3rem;
+  }
+  .p-avis-bas,
+  .p-avis-haut{
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .p-avis-bas::before,
+  .p-avis-haut::before{
+    content: " ❝";
+  }
+  .p-avis-bas::after,
+  .p-avis-haut::after{
+    content: "❞";
+  }
+  /* fin interieur de la boutique */
+  /* horaires et localisation*/
+  .title-horaires{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .block-horaires{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .list-horaires{
+    display: flex;
+    flex-direction:column;
+    margin-left: 2rem;
+  }
+  .ul-horaires{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .li-horaires::before{
+    content: "-";
+  }
+  .h-horaires{
+    margin-bottom: 1rem;
+  }
+  .h-horaires::after{
+    margin-left: 1rem;
+    content: ":";
+  }
+
+  /* fin horaires et localisation */
+  /* footer*/
+  footer {
+    text-align: center;
+    background-color: black;
+    width: 70%;
+    margin-left: 15%;
+    color: white!important;
+    padding-top: 5rem;
+    font-size: 0.8rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+  }
+  footer p {
+    position: relative;
+    color: var(--text)
+  }
+  /* fin footer*/
